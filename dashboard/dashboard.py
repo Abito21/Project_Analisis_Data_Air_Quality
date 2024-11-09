@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Import Dataset
-all_df = pd.read_csv("./airquality_data.csv")
+all_df = pd.read_csv("./dashboard/airquality_data.csv")
 
 # Create function based on analysis in Notebook
 def create_average_weather_data(df):
@@ -77,7 +77,7 @@ with st.sidebar:
     st.title("Air Quality Analyze")
 
     # Menambahkan logo perusahaan
-    st.image("Project_Analisis_Data_Air_Quality\dashboard\logo.png")
+    st.image("./dashboard/logo.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
