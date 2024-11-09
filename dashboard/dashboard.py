@@ -223,3 +223,5 @@ sns.heatmap(rain_quality_corr_df, annot=True, cmap='RdYlBu', fmt=".2f", linewidt
 # plt.title('Korelasi Antar Parameter Kualitas Udara', fontsize=16)
 
 st.pyplot(plt)
+
+st.caption('Copyright (C) Abid Indraswara 2024')

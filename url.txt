@@ -1,3 +1,1 @@
-Dashboard yang sudah dibuat di upload pada Streamlit Cloud
-
-link akses : 
+https://airqualityanalyzeabid.streamlit.app/
