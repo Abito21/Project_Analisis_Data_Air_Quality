@@ -56,3 +56,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
+## Preview Dashboard
+
+<img src="./dashboard/ss_dashboard.png" alt="Streamlit logo"></img>
